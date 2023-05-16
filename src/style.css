@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    margin: 20px 40px;
+}
+
+.game{
+    background-color: #333;
+    justify-content: space-between;
+    position: relative;
+}
+
+.score{
+    font-size: 30px;
+    font-family: "cursive";
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.ball{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 3%;
+    top:100px
+}
+
+.paddle-left,.paddle-right{
+    height: 15%;
+    background-color:aqua;
+    width: 10px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.paddle-left{
+    left: 2%;
+}
+
+.paddle-right{
+    left: 97%;
+}
+
